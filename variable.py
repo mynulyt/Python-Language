@@ -20,3 +20,6 @@ if age>=18:
 
 if name == "Mynul Alam":
     print("You are right person")
+
+if name == "Mynul Alam" and age==24 :
+    print("Wow ! i know you")
