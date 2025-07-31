@@ -12,3 +12,11 @@ isCSE = True
 isGraduate = False
 MidleName = None
 print(isCSE,isGraduate,MidleName)
+
+#if else , else, or, and not
+
+if age>=18:
+    print("Welcome to the our show!")
+
+if name == "Mynul Alam":
+    print("You are right person")
