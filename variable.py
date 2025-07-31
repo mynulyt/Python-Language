@@ -23,3 +23,12 @@ if name == "Mynul Alam":
 
 if name == "Mynul Alam" and age==24 :
     print("Wow ! i know you")
+
+
+
+
+a = int (input("Enter your a value"))
+b = int (input("Enter your b value"))
+sum=a+b
+
+print(sum)
