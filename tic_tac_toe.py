@@ -22,9 +22,9 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Tic Tac Toe Game")
 
 clock = pygame.time.Clock()
-font_big = pygame.font.SysFont("segoeui", 120, bold=True)
-font_medium = pygame.font.SysFont("segoeui", 40, bold=True)
-font_small = pygame.font.SysFont("segoeui", 24)
+font_big = pygame.font.SysFont("segoeui", 90, bold=True)
+font_medium = pygame.font.SysFont("segoeui", 35, bold=True)
+font_small = pygame.font.SysFont("segoeui", 20)
 
 def create_empty_board():
     return [["" for _ in range(GRID_SIZE)] for _ in range(GRID_SIZE)]
